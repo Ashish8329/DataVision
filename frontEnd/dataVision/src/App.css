@@ -1,0 +1,51 @@
+ * {
+  margin: 5px;
+ }
+.title{
+  margin-top: 50px;
+  padding: 10px;
+  background-color: blanchedalmond;
+  border-radius: 10px;
+  border: 2px solid;
+  justify-content: center;
+  text-align: center;
+}
+.ow-chart {
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+  margin: 10px;
+}
+
+.ow-chart2{
+  display: flex;
+  justify-content: space-around;
+  height: 600px;
+  margin: 10px;
+}
+.chart{
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 20px;
+  height: 100%
+}
+
+
+#myChart{
+  margin: 2px;
+  pad: 2px;
+  /* justify-content: center; */
+}
+
+.chart1{
+display: flex;
+width: 500px;
+border: 2px solid;
+margin: 2px;
+}
+
+
+.bar-chart{
+  /* background-color: black; */
+  border: 1px solid;
+}

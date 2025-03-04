@@ -1,0 +1,66 @@
+# Byte-compiled and cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Django secret key and settings (if applicable)
+*.env
+.env.local
+.env.production
+.env.development
+
+# Database files
+db.sqlite3
+*.sqlite3
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Static and media files
+staticfiles/
+media/
+
+# Migrations (optional, but useful in some cases)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Compiled files
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Celery beat schedule
+celerybeat-schedule
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+
+# pip and dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Node modules (if using frontend integration)
+node_modules/
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Build-related
+dist/
+build/
